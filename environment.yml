@@ -1,6 +1,6 @@
 name: ai_dev
 channels:
-  - pytorch-nightly
+  - pytorch
   - defaults
   - conda-forge
 dependencies:
@@ -75,7 +75,7 @@ dependencies:
   - pysocks=1.7.1=py310hca03da5_0
   - python=3.10.14=hb885b13_1
   - python-dateutil=2.9.0=pyhd8ed1ab_0
-  - pytorch=2.6.0.dev20240927=py3.10_0
+  - pytorch=2.3.0=py3.10_0
   - pyyaml=6.0.1=py310h80987f9_0
   - pyzmq=25.1.2=py310h313beb8_0
   - readline=8.2=h1a28f6b_0
@@ -86,9 +86,11 @@ dependencies:
   - stack_data=0.6.2=pyhd8ed1ab_0
   - sympy=1.13.2=py310hca03da5_0
   - tk=8.6.14=h6ba3021_0
-  - torchaudio=2.5.0.dev20240928=py310_cpu
-  - torchvision=0.20.0.dev20240928=py310_cpu
+  - torchaudio=2.3.0=py310_cpu
+  - torchtext=0.18.0=py310
+  - torchvision=0.18.0=py310_cpu
   - tornado=6.4.1=py310h80987f9_0
+  - tqdm=4.66.5=py310h33ce5c2_0
   - traitlets=5.14.3=pyhd8ed1ab_0
   - typing_extensions=4.11.0=py310hca03da5_0
   - tzdata=2024a=h04d1e81_0
