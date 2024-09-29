@@ -173,3 +173,8 @@ ipython_config.py
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
+
+
+# Remove Zip files
+.zip
+weekly_01/.vector_cache/
